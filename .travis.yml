@@ -1,3 +1,9 @@
 language: c
 
 script: make
+
+addons:
+  apt:
+    packages:
+      - cmake-data
+      - cmake
