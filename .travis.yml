@@ -1,6 +1,6 @@
 language: c
 
-before-install:
--sudo apt-get install check
+script: make dep && make test && make
 
-#script: make dep && maketest && make
+compiler:
+ -gcc
