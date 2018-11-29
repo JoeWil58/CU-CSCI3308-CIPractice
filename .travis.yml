@@ -1,6 +1,6 @@
 language: c
 
-#before-install:
-#-brew install check
+before-install:
+-sudo apt-get install check
 
 script: make dep && maketest && make
