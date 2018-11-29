@@ -1,3 +1,6 @@
 language: c
 
+before-install:
+-brew install check
+
 script: make dep && maketest && make
