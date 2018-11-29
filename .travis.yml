@@ -3,4 +3,4 @@ language: c
 before-install:
 -sudo apt-get install check
 
-script: make dep && maketest && make
+#script: make dep && maketest && make
